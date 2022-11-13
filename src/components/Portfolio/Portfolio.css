@@ -1,0 +1,44 @@
+.Portfolio {
+  padding: 100px 0;
+}
+.Portfolio__Container {
+  width: 70%;
+  margin: 0 auto;
+}
+.Portfolio__Head h6 {
+  text-align: center;
+  margin: 0 auto;
+}
+.Portfolio__Details {
+  display: flex;
+  flex-wrap: wrap;
+}
+.Portfolio__Card {
+  flex: 0 0 50%;
+}
+.Portfolio__Card img {
+  width: 100%;
+  height: auto;
+  max-width: 500px;
+  object-fit: cover;
+}
+.Portfolio__Card a {
+  margin: 10px;
+  display: block;
+  text-align: center;
+}
+
+@media screen and (max-width: 767px) {
+  .Portfolio {
+    padding: 50px 0;
+  }
+  .Portfolio__Card {
+    flex: 0 0 100%;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .Portfolio__Container {
+    width: 85%;
+  }
+}

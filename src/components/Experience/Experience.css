@@ -1,0 +1,13 @@
+.Experience__Container {
+  width: 70%;
+  margin: 0 auto;
+}
+.Experience__Container h6 {
+  margin: 0 auto;
+}
+@media screen and (max-width: 767px) {
+  .Experience__Container {
+    width: 85%;
+    margin: 0 auto;
+  }
+}

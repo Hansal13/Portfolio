@@ -1,0 +1,53 @@
+.Skill {
+  padding: 100px 0;
+}
+.Skill__Container {
+  width: 70%;
+  margin: 0 auto;
+}
+.Skill__Head h6 {
+  text-align: center;
+  margin: 0 auto;
+}
+.Skill__Details ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.Skill__Details li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 0 0 25%;
+  font-size: 44px;
+  margin: 10px 0;
+}
+.Skill__Details svg {
+  margin: 0 10px 0 0;
+}
+.Skill__Details p {
+  font-size: 24px;
+}
+.Skill__Description {
+  padding: 50px 0 0;
+}
+.Skill__Description h3 {
+  font-size: 24px;
+  margin: 0 0 20px 0;
+}
+.Skill__Description li {
+  font-size: 18px;
+  margin: 0 0 15px 0;
+}
+
+@media screen and (max-width: 767px) {
+  .Skill {
+    padding: 50px 0;
+  }
+  .Skill__Container {
+    width: 85%;
+  }
+  .Skill__Details li {
+    flex: 0 0 100%;
+  }
+}

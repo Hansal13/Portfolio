@@ -1,0 +1,82 @@
+.Quote {
+  padding: 100px 0;
+  background-color: #0d0d0d;
+}
+.Quote__Container {
+  width: 80%;
+  margin: 0 auto;
+}
+.Quote__Content h2 {
+  font-size: 100px;
+  letter-spacing: -5px;
+  line-height: 180px;
+  text-transform: uppercase;
+  color: #eaeaea;
+  font-weight: 300;
+  font-family: "Inconsolata", monospace;
+  text-align: center;
+  margin: 0 0 50px;
+  position: relative;
+}
+.Quote__Content h2::after {
+  content: "";
+  position: absolute;
+  width: 200px;
+  height: 2px;
+  background-color: #ffffff;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.Quote__Content p {
+  font-size: 34px;
+  line-height: 59px;
+  color: #ffffff;
+  font-weight: 400;
+  font-family: "Manrope", sans-serif;
+  text-align: center;
+  max-width: 743px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+@media screen and (max-width: 1366px) {
+  .Quote__Content h2 {
+    font-size: 90px;
+    line-height: 100px;
+    letter-spacing: 0;
+  }
+}
+
+@media screen and (max-width: 1080px) {
+  .Quote__Content h2 {
+    font-size: 69px;
+    line-height: 100px;
+    letter-spacing: 0;
+  }
+  .Quote__Content p {
+    font-size: 28px;
+    line-height: 36px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .Quote {
+    padding: 60px 0;
+  }
+  .Quote__Content h2 {
+    font-size: 42px;
+    line-height: 60px;
+    letter-spacing: 0;
+  }
+}
+@media screen and (max-width: 475px) {
+  .Quote__Content h2 {
+    font-size: 28px;
+    line-height: 50px;
+  }
+  .Quote__Content p {
+    font-size: 22px;
+    line-height: 28px;
+  }
+}

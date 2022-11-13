@@ -1,0 +1,76 @@
+.Banner {
+  width: 100%;
+  height: 100%;
+  min-height: calc(100vh - 105px);
+  background-color: #000000;
+  display: flex;
+  align-items: center;
+}
+.Banner__Container {
+  width: 70%;
+  margin: 0 auto;
+}
+.Banner__Content {
+  padding: 70px 0;
+}
+.Banner__Content h6 {
+  background-color: #282828;
+  font-size: 18px;
+  letter-spacing: 4px;
+  line-height: 23px;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-weight: 400;
+  font-family: "Inconsolata", monospace;
+  width: max-content;
+  padding: 5px;
+}
+.Banner__Content h1 {
+  font-size: 108px;
+  letter-spacing: -4px;
+  line-height: 120px;
+  color: #ffffff;
+  font-weight: 800;
+  font-family: "Manrope", sans-serif;
+  margin: 30px 0;
+}
+.Banner__Content p {
+  font-size: 24px;
+  letter-spacing: 0px;
+  line-height: 48px;
+  color: #ffffff;
+  font-weight: 200;
+  font-family: "Manrope", sans-serif;
+  margin: 0 0 40px 0;
+}
+
+@media screen and (max-width: 1199px) {
+  .Banner__Content h1 {
+    font-size: 90px;
+    line-height: 90px;
+  }
+}
+@media screen and (max-width: 991px) {
+  .Banner__Content h1 {
+    font-size: 70px;
+    line-height: 70px;
+  }
+  .Banner__Container {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 767px) {
+  .Banner__Container {
+    width: 85%;
+  }
+  .Banner__Content h1 {
+    font-size: 50px;
+    line-height: 50px;
+    margin: 20px 0;
+    letter-spacing: 0px;
+  }
+  .Banner__Content p {
+    font-size: 18px;
+    line-height: 36px;
+  }
+}
