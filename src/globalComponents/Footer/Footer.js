@@ -4,7 +4,7 @@ import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 export default function Footer() {
   return (
     <>
-      <div className="Footer">
+      <footer className="Footer" id="footer">
         <div className="Footer__Container">
           <div className="Footer__Content">
             <div className="Footer__InnerContent">
@@ -16,7 +16,7 @@ export default function Footer() {
             <div className="Footer__InnerContent">
               <ul>
                 <li>
-                  <a href="#home">Home</a>
+                  <a href="#header">Home</a>
                 </li>
                 <li>
                   <a href="#about">About</a>
@@ -29,7 +29,7 @@ export default function Footer() {
                 </li>
               </ul>
             </div>
-            <div className="Footer__InnerContent">
+            <div className="Footer__InnerContent" id="contact">
               <form action="mailto:hansalpatel5050@gmail.com" method="post">
                 <input
                   type="email"
@@ -47,18 +47,18 @@ export default function Footer() {
         <div className="Footer__SocialMedia">
           <ul>
             <li>
-              <a href="http://localhost:3000/">
+              <a href="https://www.linkedin.com/in/hansal-patel-00635621b">
                 <AiFillLinkedin />
               </a>
             </li>
             <li>
-              <a href="http://localhost:3000/">
+              <a href="https://github.com/Hansal13" target="_blank">
                 <AiFillGithub />
               </a>
             </li>
           </ul>
         </div>
-      </div>
+      </footer>
     </>
   );
 }

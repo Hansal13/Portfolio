@@ -11,7 +11,7 @@ export default function Header() {
   };
   return (
     <>
-      <header className="App__Header">
+      <header className="App__Header" id="header">
         <div className="Header__Container">
           <div className="Header__Content">
             <a href="http://localhost:3000/">
@@ -28,13 +28,27 @@ export default function Header() {
         >
           <div className="Header__Links">
             <ul>
-              <li>Portfolio</li>
-              <li>Contact</li>
               <li>
-                <AiFillLinkedin />
+                <a href="#portfolio">Portfolio</a>
               </li>
               <li>
-                <AiFillGithub />
+                <a href="#footer">Contact</a>
+              </li>
+              <li>
+                <a href="#skill">skills</a>
+              </li>
+              <li>
+                <a
+                  href="https://www.linkedin.com/in/hansal-patel-00635621b"
+                  target="__blank"
+                >
+                  <AiFillLinkedin />
+                </a>
+              </li>
+              <li>
+                <a href="https://github.com/Hansal13" target="_blank">
+                  <AiFillGithub />
+                </a>
               </li>
             </ul>
           </div>

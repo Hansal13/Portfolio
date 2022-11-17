@@ -53,5 +53,5 @@ export default function Heading(props) {
       line-height: 80px;
     }
   `;
-  return <Head>{props.head}</Head>;
+  return <Head data-aos="zoom-in-up">{props.head}</Head>;
 }

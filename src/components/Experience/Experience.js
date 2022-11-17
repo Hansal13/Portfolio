@@ -4,10 +4,10 @@ import Heading from "../Heading/Heading";
 
 export default function Experience() {
   return (
-    <div className="Experience">
+    <section className="Experience" is="experience">
       <div className="Experience__Container">
         <Heading head="Experience" text="Where I Work" />
-        <div className="Experience__Content">
+        <div className="Experience__Content" data-aos="fade-up">
           <h4>TcodexTechnolab</h4>
           <p>Front End Developer</p>
           <p>Rajkot, Gujarat, India</p>
@@ -27,6 +27,6 @@ export default function Experience() {
           </p>
         </div>
       </div>
-    </div>
+    </section>
   );
 }

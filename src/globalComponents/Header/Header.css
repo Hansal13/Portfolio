@@ -27,6 +27,7 @@
 .Header__Content img {
   width: 32px;
   height: 21px;
+  cursor: pointer;
 }
 @media screen and (max-width: 767px) {
   .Header__Container {
@@ -72,6 +73,9 @@
   font-size: 24px;
   transform: translate(100%);
   transition: 0.9s;
+}
+.Header__Links li a {
+  color: #ffffff;
 }
 .Sidebar.active .Header__Links li {
   transform: translate(0);

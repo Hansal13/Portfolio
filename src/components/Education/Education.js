@@ -4,12 +4,12 @@ import Heading from "../Heading/Heading";
 export default function Education() {
   return (
     <>
-      <div className="Education">
+      <section className="Education" id="education">
         <div className="Education__Container">
           <div className="Education__Head">
             <Heading text="Study" head="Education" />
           </div>
-          <div className="Education__Main">
+          <div className="Education__Main" data-aos="fade-up">
             <div className="Education__Details">
               <h4>Bachelors In Computer Engineering</h4>
               <p>2018 - 2022</p>
@@ -30,7 +30,7 @@ export default function Education() {
             </div>
           </div>
         </div>
-      </div>
+      </section>
     </>
   );
 }
