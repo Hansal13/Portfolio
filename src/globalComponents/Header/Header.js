@@ -35,7 +35,7 @@ export default function Header() {
                 <a href="#footer">Contact</a>
               </li>
               <li>
-                <a href="#skill">skills</a>
+                <a href="#skill">Skills</a>
               </li>
               <li>
                 <a

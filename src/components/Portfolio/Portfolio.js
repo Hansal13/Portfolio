@@ -12,10 +12,10 @@ export default function Portfolio() {
             <Heading text="Latest Work" head="Portfolio" />
           </div>
           <div className="Portfolio__Details">
-            {PortfolioData.reverse().map((portfolio) => (
+            {PortfolioData.map((portfolio) => (
               <div
                 className="Portfolio__Card"
-                index={portfolio.id}
+                key={portfolio.id}
                 data-aos="zoom-in-up"
               >
                 <a href={portfolio.portfolioLink} target="__blank">
@@ -23,7 +23,7 @@ export default function Portfolio() {
                   <p>{portfolio.portfolioDescription}</p>
                 </a>
               </div>
-            ))}
+            )).reverse()}
           </div>
         </div>
       </section>

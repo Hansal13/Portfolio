@@ -10,20 +10,18 @@
   margin: 0 auto;
 }
 .Portfolio__Details {
-  display: flex;
-  flex-wrap: wrap;
-}
-.Portfolio__Card {
-  flex: 0 0 50%;
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 20px;
 }
 .Portfolio__Card img {
   width: 100%;
-  height: auto;
+  height: 100%;
   max-width: 500px;
   object-fit: cover;
 }
 .Portfolio__Card a {
-  margin: 10px;
+  height: 100%;
   display: block;
   text-align: center;
 }
@@ -32,8 +30,8 @@
   .Portfolio {
     padding: 20px 0;
   }
-  .Portfolio__Card {
-    flex: 0 0 100%;
+  .Portfolio__Details {
+    grid-template-columns: auto;
   }
 }
 
