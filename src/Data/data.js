@@ -3,7 +3,7 @@ import Personal from "../assets/Personal.png";
 import Shopy from "../assets/Shopy.png";
 import Shine from "../assets/Shine.png";
 import Ebike from "../assets/Ebike.png";
-
+import ReduxShop from "../assets/ReduxShop.png";
 export const PortfolioData = [
   {
     id: 1,
@@ -34,5 +34,11 @@ export const PortfolioData = [
     portfolioLink: "https://shopyclothess.web.app/",
     portfolioDescription: "",
     image: Shopy,
+  },
+  {
+    id: 6,
+    portfolioLink: "https://reduxproduct-67dfc.web.app/",
+    portfolioDescription: "",
+    image: ReduxShop,
   },
 ];
